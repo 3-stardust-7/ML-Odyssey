@@ -20,20 +20,6 @@ print("Mean:",mean)
 print("Sum:",sum)
 print("Random matrix:\n",matrix)
 
-"""
-This is a multi-line comment.
-It can span multiple lines.
-Python ignores this when running the code.
-"""
-print("Hello, World!")
-
-'''
-This is another way
-to write a multi-line comment.
-'''
-print("Python is awesome!")
-
-
 
 
 
