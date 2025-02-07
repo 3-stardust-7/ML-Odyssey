@@ -1,4 +1,5 @@
-
+# Load a dataset using Pandas (iris or titanic from seaborn or scikit-learn).
+# Do basic data exploration (.head(), .info(), .describe()).
 # print() comes with a newline
 # Use end="" to change or remove the default newline:
 
