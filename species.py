@@ -32,4 +32,22 @@ sns.set_style("whitegrid")
 sns.pairplot(df,hue="species",diag_kind="kde")
 plt.show()
 
+# OTHER VISUALISATIONS
+#Boxplot (Feature Distribution by Species)
+# plt.figure(figsize=(10, 6))
+# sns.boxplot(x="species", y="sepal length (cm)", data=df)
+# plt.show()
+
+# #Violin Plot (Density)
+# plt.figure(figsize=(10, 6))
+# sns.violinplot(x="species", y="petal length (cm)", data=df)
+# plt.show()
+
+# #Histogram (Feature Distribution)
+# df.hist(figsize=(10, 6), bins=20)
+# plt.show()
+
+# #Scatterplot (Sepal Length vs. Petal Length)
+# sns.scatterplot(x=df["sepal length (cm)"], y=df["petal length (cm)"], hue=df["species"])
+# plt.show()
 
