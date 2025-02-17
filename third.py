@@ -23,3 +23,26 @@ plt.xlabel('Categories')
 plt.ylabel('Values')
 plt.title('Bar Chart Example')
 plt.show()
+
+
+# LINE PLOT
+# A line plot displays data points on a 2D graph connected by a straight line.
+# It's typically used to visualize trends over a continuous variable, such as time or distance.
+# x: A list of x-values (horizontal axis).
+# y: A list of y-values (vertical axis).
+# marker='o': Adds circle markers at each data point.
+# linestyle='-': Connects the data points with a solid line.
+# color='b': Sets the line color to blue (b stands for blue).
+# xlabel() and ylabel() add labels to the x-axis and y-axis respectively.
+# title() adds a title to the plot.
+# grid(True) enables the grid lines, which makes it easier to read the plot.
+# show() displays the plot.
+
+# BAR CHART
+# categories: A list of categorical labels ('A', 'B', 'C', etc.).
+# values: A list of numerical values corresponding to each category.
+# bar() creates a bar chart with categories on the x-axis and values on the y-axis.
+# color='green': Sets the bar color to green
+# xlabel() and ylabel() add labels to the x-axis and y-axis respectively.
+# title() adds a title to the bar chart.
+# show() displays the chart.
